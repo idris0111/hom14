@@ -168,48 +168,56 @@
     margin: auto;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.56) 35.71%, rgba(0, 0, 0, 0) 44.93%),
         linear-gradient(186.23deg, rgba(113, 171, 40, 0.61) 24.29%, rgba(113, 171, 40, 0) 32.87%), url("./Слой\ 2\ 1\ \(2\).png");
-        background-repeat:no-repeat;
-        background-size: cover;
-        margin-top: 30px;
-        border-radius: 40px;
-        position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+    border-radius: 40px;
+    position: relative;
 }
-.i2{
+
+.i2 {
     position: absolute;
     left: 40px;
     color: white;
     top: 60px;
 }
-.o1{
+
+.o1 {
     font-size: 24px;
 }
-.o2{
+
+.o2 {
     font-size: 30px;
     font-weight: 700;
     margin-top: 5px;
     margin-bottom: 10px;
 }
-.o3{
+
+.o3 {
     font-size: 22px;
     font-weight: 200;
 }
-.ip3{
+
+.ip3 {
     font-size: 24px;
     line-height: 30px;
 }
-.ip4{
+
+.ip4 {
     font-size: 16px;
     color: #747474;
     line-height: 20px;
     margin-top: 10px;
 }
-.i4{
+
+.i4 {
     display: flex;
     gap: 20px;
     align-items: start;
     margin-bottom: 30px;
 }
-.im3{
+
+.im3 {
     max-width: 1300px;
     margin: auto;
     display: flex;
@@ -217,40 +225,98 @@
     justify-content: space-between;
     gap: 30px;
 }
+
+.button1 {
+    width: 289px;
+    height: 77px;
+    border-radius: 40px;
+    background: linear-gradient(0deg, #447C2A, #447C2A), linear-gradient(90.95deg, rgba(61, 184, 70, 0) 2.44%, #3DB846 56.96%, rgba(61, 184, 70, 0) 99.45%);
+    box-shadow: 0px 12px 12px 0px #2A7C3057;
+    font-size: 20px;
+    border: none;
+    color: white;
+}
+
+.im11 {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin: auto;
+    max-width: 1200px;
+    margin-top: 150px;
+    margin-bottom:50px ;
+    p {
+        font-size: 48px;
+
+    }
+}
+.img11{
+    text-align: center;
+    img{
+        padding: 10px;
+        margin-top: 30px;
+    }
+    p{
+        margin-top: 10px;
+        color: #5E4520;
+        font-size: 30px;
+    }
+}
 @media(max-width:600px) {
-    .im3{
+    .im11{
+        width: 250px;
+        margin-left:-30;
+        margin-bottom: 0;
+        p{
+            font-size: 28px;
+            line-height: 35px;
+        }
+    }
+    .img11{
+        p{
+            font-size: 16px;
+        }
+    }
+    .im3 {
         flex-direction: column;
     }
-    .box22{
+
+    .box22 {
         color: white;
         margin-top: 30px;
     }
-    .id1{
+
+    .id1 {
         width: 95%;
         margin: auto;
 
     }
-    .box4{
+
+    .box4 {
         position: absolute;
         top: 300px;
         font-size: 17px;
         left: 40px;
     }
-    .img1{
+
+    .img1 {
         margin-bottom: 40px;
     }
-    .ip2{
+
+    .ip2 {
         font-size: 16px;
         width: 300px;
         margin-left: 30px;
     }
-    .ip1{
+
+    .ip1 {
         font-size: 24px;
         width: 300px;
         margin: auto;
         margin-top: 100px;
         margin-bottom: 30px;
     }
+
     .veb1 {
         display: none;
     }
